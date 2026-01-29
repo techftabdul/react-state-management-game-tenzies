@@ -34,7 +34,7 @@ Technologies
 Getting Started
 Prerequisites
 
-Node.js & npm installed
+> Node.js & npm installed
 
 > Installation
 > git clone <repo-url>
@@ -42,7 +42,7 @@ Node.js & npm installed
 > npm install
 > npm run dev # or npm start depending on setup
 
-Open the browser at http://localhost:5173 (or the port Vite shows).
+> Open the browser at http://localhost:5173 (or the port Vite shows).
 
 What I Learned
 
