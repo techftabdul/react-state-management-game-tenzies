@@ -1,59 +1,46 @@
-#Tenzies – React State Management Game
+# React State Management Project – Tenzies
 
-Tenzies is a simple dice game built in React.
+Built a React project that demonstrates advanced state management using arrays of objects, conditional rendering, and child-to-parent communication via callbacks. This project strengthened my ability to think declaratively and manage interactive UI components.
 
-#The goal: Roll dice until all dice show the same number. Players can “hold” dice to lock their value while rerolling the others.
+Key Skills Demonstrated:
 
-While the game looks simple, the project focuses on React fundamentals, including:
+> React functional components & hooks (useState)
 
-Managing arrays of objects in state
+> Updating arrays of objects immutably
 
-Conditional rendering
+> Conditional styling & rendering
 
-Child-to-parent communication via callback functions
+> Derived state logic without unnecessary side effects
 
-Derived state vs side effects
+> Passing functions as props for child → parent communication
 
-Immutable updates for complex state
+Why It Matters for Clients:
+While this is a small project, it shows the foundation of building interactive, dynamic web apps that solve real-world business needs — like enhancing client visibility, improving user engagement, or creating responsive dashboards.
 
-#This project is part of my React learning journey and helped solidify the mental model for real-world React applications.
+Next Steps:
+Ready to apply these React skills to build client-facing web applications and digital solutions that drive visibility, growth, and engagement.
 
-#Demo:
+Link to Demo: #
 
-You can play the game locally after cloning the repo.
-
-#Features
-
-Roll dice
-
-Hold dice to prevent rerolling
-
-Conditional styling: Held dice turn green
-
-Detect when the game is won
-
-Button changes text to “New Game” when the game is completed
-
-Reset the game with a single click
 
 Technologies
 
-React (Functional Components & Hooks)
+> React (Functional Components & Hooks)
 
-nanoid (Unique ID for each die)
+> nanoid (Unique ID for each die)
 
-CSS / Tailwind for styling
+> CSS / Tailwind for styling
 
 Getting Started
 Prerequisites
 
 Node.js & npm installed
 
-Installation
-git clone <repo-url>
-cd tenzies
-npm install
-npm run dev # or npm start depending on setup
+> Installation
+> git clone <repo-url>
+> cd tenzies
+> npm install
+> npm run dev # or npm start depending on setup
 
 Open the browser at http://localhost:5173 (or the port Vite shows).
 
